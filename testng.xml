@@ -1,11 +1,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="test_automation" verbose="1" >
-    <test name="Mortgage Calculator">
-        <packages>
-            <package name="automation_test.mortgage_calculator"/>
-        </packages>
-    </test>
+<suite name="test_automation" verbose="1" parallel="classes" thread-count="2">
+<!--    <test name="Mortgage Calculator">-->
+<!--        <classes>-->
+<!--            <class name="automation_test.mortgage_calculator.CalculateRates"/>-->
+<!--            <class name="automation_test.mortgage_calculator.CalculateMonthlyPayment"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 <!--    <test name="PHP Travel">-->
 <!--        <classes>-->
 <!--            <class name="automation_test.php_travel.ValidatePHPTravelWebTitle"/>-->
